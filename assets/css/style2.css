@@ -1,0 +1,39 @@
+/* Estilos para a mensagem de sucesso de login */
+.login-container {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.login-container h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.login-container p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* "Entrar" */
+.login-container button[type="submit"] {
+    background-color: #0187a7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px; 
+}
+
+.login-container button[type="submit"]:hover {
+    background-color: #016578;
+}

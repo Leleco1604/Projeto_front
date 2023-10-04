@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Evento de clique nos links do menu
     navLinks.forEach(function(link) {
         link.addEventListener('click', function() {
-            toggleMenu(); // Fecha o menu ao clicar em um link
+            toggleMenu(); 
         });
     });
 
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         if (usuario === usuarioCorreto && senha === senhaCorreta) {
             // Redireciona o usuário para a página de sucesso após o login
-            window.location.href = "sucesso-login.html";
+            window.location.href = "cadastro-sucesso.html";
         } else {
             alert("Usuário ou senha incorretos. Tente novamente.");
         }
