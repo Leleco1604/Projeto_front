@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* Estilos para o corpo da página */
+/* Estilos da página */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -13,7 +13,7 @@ body {
     padding: 0;
 }
 
-/* Estilos para o cabeçalho */
+/* Estilo cabeçalho */
 header {
     background-color: #24252a;
     box-shadow: 0px 3px 10px #464646;
@@ -31,7 +31,7 @@ header {
     color: #fff;
 }
 
-/* Estilos para o menu de navegação */
+/* Estilo menu de navegação */
 .nav-list ul {
     display: flex;
     justify-content: center;
@@ -49,7 +49,7 @@ header {
     font-weight: 400;
 }
 
-/* Estilos para o botão de login */
+/* Estilo botão de login */
 .login-button button {
     border: none;
     padding: 10px 15px;
@@ -64,12 +64,12 @@ header {
     font-size: 1.1rem;
 }
 
-/* Estilos para o ícone do menu mobile */
+/* Estilo ícone do menu mobile */
 .mobile-menu-icon button {
     display: none;
 }
 
-/* Estilos para o menu mobile */
+/* Estilo para o menu mobile */
 .mobile-menu {
     display: none;
 }
@@ -112,7 +112,7 @@ header {
     }
 }
 
-/* Estilos para o formulário de login */
+/* Estilo formulário de login */
 .login-container {
     background-color: #fff;
     max-width: 400px;

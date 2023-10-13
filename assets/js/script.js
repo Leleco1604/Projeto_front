@@ -24,17 +24,17 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // Evento de clique no ícone do menu
+    // clique no ícone do menu
     menuIcon.addEventListener('click', toggleMenu);
 
-    // Evento de clique nos links do menu
+    // clique nos links do menu
     navLinks.forEach(function(link) {
         link.addEventListener('click', function() {
             toggleMenu(); 
         });
     });
 
-    // Evento de clique em qualquer lugar fora do menu para fechá-lo
+    // clique em qualquer lugar fora do menu para fechá-lo
     document.addEventListener('click', function(event) {
         if (!menuMobile.contains(event.target) && !menuIcon.contains(event.target)) {
             menuMobile.classList.remove('open');
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-    // Evento de envio do formulário de login
+    // envio do formulário de login
     loginForm.addEventListener("submit", function(event) {
         event.preventDefault();
 
